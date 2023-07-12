@@ -44,6 +44,8 @@
     font-size: 18px;
     line-height: 24px;
     text-underline-position: under;
+    align-self: start;
+    justify-self: start;
 }
 
 .header__address {
@@ -278,7 +280,6 @@
     margin: 0 auto;
     padding: 180px 50px 90px;
 }
-
 .footer__menu-list {
     list-style: none;
     text-align: center;
@@ -299,6 +300,7 @@
     display: flex;
     list-style: none;
     column-gap: 48px;
+    justify-self: end;
 }
 
 .footer__social-icon {
