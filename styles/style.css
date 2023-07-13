@@ -1,3 +1,7 @@
+.link:hover {
+    opacity: 0.5;
+}
+
 .header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -98,7 +102,7 @@
 .aligned-text_center {
     text-align: center;
     line-height: 1;
-    margin-left: -60px;
+    margin-right: 60px;
 }
 
 .aligned-text_right {
@@ -312,11 +316,4 @@
 .footer__social-icon {
     height: 48px;
     width: 48px;
-}
-.header__link:hover,
-.address a:hover,
-.lots__look-more-link:hover,
-.footer__menu-link:hover,
-.footer__social-link:hover {
-    opacity: 0.5;
 }
